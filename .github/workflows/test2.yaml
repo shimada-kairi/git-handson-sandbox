@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Hello World!
         run: |
-          exit 0
+          exit 1

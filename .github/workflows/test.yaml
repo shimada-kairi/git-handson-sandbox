@@ -9,4 +9,4 @@ jobs:
   status-check:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 0
+      - run: exit 1

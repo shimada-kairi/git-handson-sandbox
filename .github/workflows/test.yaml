@@ -1,0 +1,12 @@
+name: Minimal CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  status-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0

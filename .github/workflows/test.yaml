@@ -1,14 +1,12 @@
-name: GitHub Actions Demo - shimada-kai
+name: Minimal CI
+
 on:
   pull_request:
     branches:
       - main
 
 jobs:
-  echo-my-message:
-    # runs-onは変更しないでください!!!（ランナーの種類によって料金が変わり、macOSとかは高くなるので!）
+  check:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello World!
-        run: |
-          echo "Hello World!"
+      - run: exit 0

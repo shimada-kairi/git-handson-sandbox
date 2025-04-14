@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  check:
+  status-check:
     runs-on: ubuntu-latest
     steps:
       - run: exit 0
